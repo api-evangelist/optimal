@@ -1,8 +1,27 @@
 aid: optimal
 name: Optimal
-description: Optimal is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Optimal is a preventive-health and longevity company based in Mexico City,
+  backed by 500 Global, operating across Latin America (Mexico, Colombia, and Peru).
+  Optimal offers a consumer blood test that analyzes more than 300 biomarkers and uses
+  AI to surface problems before symptoms appear, positioning itself as a predictive
+  health platform (branded "health OS") that integrates biological data, wearable metrics,
+  behavioral patterns, and medical history into longitudinal health models to identify
+  risk before it becomes disease. The company sells directly to consumers via a web app
+  and subscriptions and does not currently publish a public developer API, developer
+  portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/optimal/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/PC7nLgMJBrXRlhWGLjLV5341oU.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Healthcare
+- Preventive Health
+- Longevity
+- Biomarkers
+- Diagnostics
+- Wellness
+- Latin America
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://optimal.lat
+  url: https://www.optimal.lat/
+- type: SignUp
+  url: https://app.optimal.lat/auth/create
+- type: Support
+  url: https://www.optimal.lat/contact
+- type: TermsOfService
+  url: https://www.optimal.lat/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.optimal.lat/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/optimallatam/
+- type: DomainSecurity
+  url: security/optimal-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
